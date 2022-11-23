@@ -4,8 +4,8 @@ import Title from "./components/Title";
 function App() {
   return (
     <div className="App">
-      <Title text="Manh An" />
-      <Title text="Manh An 2" />
+      <Title text="Manh An" color="red" fontSize="30px" />
+      <Title text="Manh An 2" color="yellow" fontSize="50px" />
     </div>
   );
 }
@@ -20,3 +20,4 @@ export default App;
 // chia nhỏ và tái sử dụng
 
 //3 props : là 1 object , kỹ thuật truyền data từ cha xuống con
+//4 styles trong react
