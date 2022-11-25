@@ -1,13 +1,9 @@
 import "./App.css";
-import Title from "./components/Title";
+import { data } from "./data";
 
 function App() {
-  return (
-    <div className="App">
-      <Title text="Manh An" color="red" fontSize="30px" />
-      <Title text="Manh An 2" color="yellow" fontSize="50px" />
-    </div>
-  );
+  console.log(data);
+  return <div className="App"></div>;
 }
 
 export default App;
@@ -21,3 +17,4 @@ export default App;
 
 //3 props : là 1 object , kỹ thuật truyền data từ cha xuống con
 //4 styles trong react
+//5 list
